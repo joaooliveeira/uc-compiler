@@ -1,0 +1,21 @@
+Program:
+    FuncDef:
+        Type: int @ 1:1
+        Decl: ID(name=main)
+            FuncDecl:
+                ParamList: @ 1:10
+                    ID: i @ 1:10
+                    ID: j @ 1:13
+                VarDecl:
+                    Type: int @ 1:1
+        Compound: @ 3:1
+            Return: @ 4:3
+                BinaryOp: + @ 4:10
+                    ID: i @ 4:10
+                    ID: j @ 4:12
+        Decl: ID(name=i)
+            VarDecl:
+                Type: int @ 2:3
+        Decl: ID(name=j)
+            VarDecl:
+                Type: int @ 2:3

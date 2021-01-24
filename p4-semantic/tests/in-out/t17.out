@@ -1,0 +1,1 @@
+SemanticError: type(float) must be of type(int) @ 6:11

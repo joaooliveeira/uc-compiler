@@ -1,0 +1,4 @@
+int main(){
+    float t = .0.;
+    return 0;
+}

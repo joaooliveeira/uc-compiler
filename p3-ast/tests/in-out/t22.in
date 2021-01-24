@@ -1,0 +1,6 @@
+int main(i, j)
+  int i, j;
+  j = i+1;
+{
+
+}

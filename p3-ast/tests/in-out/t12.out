@@ -1,0 +1,78 @@
+Program:
+    FuncDef:
+        Type: int @ 4:1
+        Decl: ID(name=add)
+            FuncDecl:
+                ParamList:
+                    Decl: ID(name=x)
+                        VarDecl:
+                            Type: int @ 4:9
+                    Decl: ID(name=y)
+                        VarDecl:
+                            Type: int @ 4:16
+                VarDecl:
+                    Type: int @ 4:1
+        Compound: @ 4:23
+            Return: @ 5:5
+                BinaryOp: + @ 5:12
+                    ID: x @ 5:12
+                    ID: y @ 5:16
+    FuncDef:
+        Type: int @ 8:1
+        Decl: ID(name=subtract)
+            FuncDecl:
+                ParamList:
+                    Decl: ID(name=x)
+                        VarDecl:
+                            Type: int @ 8:14
+                    Decl: ID(name=y)
+                        VarDecl:
+                            Type: int @ 8:21
+                VarDecl:
+                    Type: int @ 8:1
+        Compound: @ 8:28
+            Return: @ 9:5
+                BinaryOp: - @ 9:12
+                    ID: x @ 9:12
+                    ID: y @ 9:16
+    FuncDef:
+        Type: int @ 12:1
+        Decl: ID(name=main)
+            FuncDecl:
+                VarDecl:
+                    Type: int @ 12:1
+        Compound: @ 12:12
+            Decl: ID(name=foo)
+                VarDecl:
+                    Type: int @ 13:4
+                Constant: int, 1 @ 13:15
+            Decl: ID(name=bar)
+                VarDecl:
+                    Type: int @ 13:4
+                Constant: int, 1 @ 13:24
+            Print: @ 14:4
+                ExprList: @ 14:10
+                    ID: foo @ 14:10
+                    Constant: string,  +  @ 14:15
+                    ID: bar @ 14:22
+                    Constant: string,  =  @ 14:27
+                    FuncCall: @ 14:34
+                        ID: add @ 14:34
+                        ExprList: @ 14:38
+                            ID: foo @ 14:38
+                            ID: bar @ 14:43
+                    Constant: string, \n @ 14:49
+            Print: @ 15:4
+                ExprList: @ 15:10
+                    ID: foo @ 15:10
+                    Constant: string,  -  @ 15:15
+                    ID: bar @ 15:22
+                    Constant: string,  =  @ 15:27
+                    FuncCall: @ 15:34
+                        ID: subtract @ 15:34
+                        ExprList: @ 15:43
+                            ID: foo @ 15:43
+                            ID: bar @ 15:48
+                    Constant: string, \n @ 15:54
+            Return: @ 16:4
+                Constant: int, 0 @ 16:11

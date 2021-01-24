@@ -1,0 +1,8 @@
+Program:
+    GlobalDecl:
+        Decl: ID(name=N)
+            VarDecl:
+                Type: int @ 1:1
+            Cast: @ 1:9
+                Type: int @ 1:10
+                Constant: float, 100.0 @ 1:15

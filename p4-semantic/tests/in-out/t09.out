@@ -1,0 +1,5 @@
+SemanticError: 
+Constant(type=string,
+         value=value,
+         uc_type=)
+Is not a variable @ 5:9

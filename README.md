@@ -8,18 +8,6 @@ Python programming language for this task because it has clear and direct syntax
 and allows for rapid prototyping. In addition, we will have at our disposal a
 wonderful combination of tools and code in Python that make compilers so cool.
 
-*C is not a "very high level" language, nor a "big" one, and is not specialized
-to any particular area of application. But its absence of restrictions and its
-generality make it more convenient and effective for many tasks than supposedly
-more powerful languages.*
--- Kernighan and Ritchie
-
-While you don’t need to be a Python wizard to complete the task, you should feel
-comfortable working with the language, and in particular should know how to
-program with classes. If you’d like a Python refresher, there are a bunch of
-useful links on the website to help you get up to speed.  I hope that the use of
-Python in this task doesn’t deter you from taking it.
-
 This task will revolve around several programming projects that taken together
 form a complete working compiler. You will learn how to put into practice the
 techniques presented in the theoretical part of this course and will study most

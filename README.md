@@ -1,17 +1,4 @@
-# MC921 -- Compiler Construction.
-
-The goal of the practical part of this course is to write a complete compiler
-for uC (micro C) Language, designed exclusively for this purpose. uC has the
-essential features of a realistic programming language, but is small and simple
-enough that it can be implemented in a few thousand lines of code. We chose the
-Python programming language for this task because it has clear and direct syntax
-and allows for rapid prototyping. In addition, we will have at our disposal a
-wonderful combination of tools and code in Python that make compilers so cool.
-
-This task will revolve around several programming projects that taken together
-form a complete working compiler. You will learn how to put into practice the
-techniques presented in the theoretical part of this course and will study most
-of the details involved in the implementation of a "real" compiler.
+# Compiler Construction.
 
 ## First Project: Lexer
 
